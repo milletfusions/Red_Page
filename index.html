@@ -5,14 +5,32 @@
     <title>RED</title>
     <style>
         body {
-  background-color: #ff0000;
-  position: absolute;
-  inset: 0;
-  display: flex;
-  place-content: center;
-  align-items: center;
-  overflow: hidden;
+    background-color: #ff0000;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+
+img {
+    position: absolute;
+    top: 10%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+}
+
+h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Rest of your CSS remains the same */
+
 
 @keyframes gradientAnimation {
     0% {
@@ -27,12 +45,6 @@
 }
 
 
-h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 
         ul {
@@ -140,6 +152,7 @@ h2 {
     </style>
 </head>
 <body>
+    <img src="eclub.png" alt="ECLUB" width="20%" >
     <div class="gradient"></div>
         <ul>
             <li>
